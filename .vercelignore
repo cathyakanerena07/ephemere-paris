@@ -3,6 +3,7 @@ node_modules
 .next-build
 out
 
-# Source assets — the served copies live in public/
-*.mp4
-*.webp
+# Root-level working assets only — the served copies in public/ must ship.
+/*.mp4
+/*.webp
+/*_grid.png
