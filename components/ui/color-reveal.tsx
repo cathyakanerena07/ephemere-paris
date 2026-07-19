@@ -17,8 +17,9 @@ const IMAGE = { w: 2096, h: 1184 }
 const FOCUS = { x: 0.5, y: 0.28 }
 // Where the sunglasses sit inside the source photograph.
 const GLASSES = { x: 0.5, y: 0.394 }
-// Lens window width, as a fraction of the rendered photograph.
-const LENS_RATIO = 0.3
+// Lens window width, as a fraction of the rendered photograph — sized to sit
+// around the model rather than spilling into the empty studio backdrop.
+const LENS_RATIO = 0.21
 
 const geometry = (box: Box) => {
   const scale = Math.max(box.w / IMAGE.w, box.h / IMAGE.h)
