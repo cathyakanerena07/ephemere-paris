@@ -1,0 +1,8 @@
+node_modules
+.next
+.next-build
+out
+
+# Source assets — the served copies live in public/
+*.mp4
+*.webp
